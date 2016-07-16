@@ -1,1 +1,0 @@
-lb config -a i386 -b iso-hybrid -b hdd -d trusty --mode ubuntu --archive-areas "main universe multiverse" --debian-installer-distribution trusty --binary-filesystem ext4 --debian-installer-distribution trusty --mirror-bootstrap http://us.archive.ubuntu.com/ubuntu/ --system normal --checksums md5 --verbose 
