@@ -1,0 +1,10 @@
+git
+htop
+rsync
+vim
+iptables-persistent
+sqlite3
+tmux
+apt-file
+sysstat
+snmpd
