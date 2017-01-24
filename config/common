@@ -34,7 +34,7 @@ LB_BOOTSTRAP="debootstrap"
 
 # $LB_CACHE: control cache
 # (Default: true)
-LB_CACHE="true"
+LB_CACHE="false"
 
 # $LB_CACHE_INDICES: control if downloaded package indices should be cached
 # (Default: false)
