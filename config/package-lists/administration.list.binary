@@ -1,5 +1,6 @@
 acl
 ansible
+aptitude
 apt-file
 dhcpcd5
 emacs
@@ -8,13 +9,16 @@ iproute2
 iptables-persistent
 iw
 ksh
+lsb
 luajit
 moreutils
+olsrd
 openssh-server
 openssl
 openvpn
 perl
 python
+python3
 rsync
 ruby
 sqlite3

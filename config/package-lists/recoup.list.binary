@@ -1,0 +1,12 @@
+arduino
+avrdude
+build-essential
+gcc
+gnuplot-qt
+gnuplot-doc
+libreoffice
+octave
+octave-doc
+octave-htmldoc
+r-recommended
+virtualenv

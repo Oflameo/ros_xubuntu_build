@@ -3,6 +3,18 @@
   remote_user:  "{{ user }}"
   become: True
   tasks:
+    -  name: Set sources
+       copy:
+          src: ../config/includes.chroot/etc/apt/sources.list
+          dest: /etc/apt/sources.list
+          owner: root
+          group: root
+          mode: 0644
+    -  name: Get ROS apt-key
+       apt_key: 
+          keyserver: hkp://ha.pool.sks-keyservers.net:80
+          id: 421C365BD9FF1F717815A3895523BAEEB01FA116
+          state: present
     -  name: Update cache
        apt: 
           update_cache: yes
@@ -18,3 +30,15 @@
            state: present
        with_lines:
            - cat ../config/package-lists/logging.list.binary
+    -  name: Install Recoup packages
+       apt:
+           name: "{{ item }}"
+           state: present
+       with_lines:
+           - cat ../config/package-lists/recoup.list.binary
+    -  name: Install Recoup 1 packages
+       apt:
+           name: "{{ item }}"
+           state: present
+       with_lines:
+           - cat ../config/package-lists/recoup1.list.binary
