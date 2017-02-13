@@ -1,5 +1,5 @@
-deb http://us.archives.ubuntu.com/ubuntu/ xenial main restricted 
-deb http://us.archives.ubuntu.com/ubuntu/ xenial-updates main restricted universe
-deb http://us.archives.ubuntu.com/ubuntu/ xenial-backports main restricted universe
-deb http://security.ubuntu.com/ubuntu/ xenial-security main restricted universe
+deb http://archive.ubuntu.com/ubuntu xenial main restricted universe
+deb  http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe
+deb  http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe
+deb  http://archive.ubuntu.com/ubuntu xenial-security main restricted universe
 deb http://packages.ros.org/ros/ubuntu xenial main

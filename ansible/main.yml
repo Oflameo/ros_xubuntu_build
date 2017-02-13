@@ -18,6 +18,8 @@
     -  name: Update cache
        apt: 
           update_cache: yes
+    -  name: Install bootstrap packages
+       raw: sudo apt-get install python aptitude
     -  name: Install admin packages
        apt: 
            name: "{{ item }}"
