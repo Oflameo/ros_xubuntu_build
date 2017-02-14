@@ -4,9 +4,12 @@ build-essential
 gcc
 gnuplot-qt
 gnuplot-doc
+inkscape
+librecad
 libreoffice
 octave
 octave-doc
 octave-htmldoc
+openscad
 r-recommended
 virtualenv

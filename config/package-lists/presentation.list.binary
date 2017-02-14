@@ -1,9 +1,12 @@
 espeak
 ffmpeg
+fritzing
+inkscape
 lightdm
 mcomix
 pavucontrol
 pulseaudio
+remmina
 smbclient
 smplayer
 vlc
@@ -13,3 +16,4 @@ xorg
 xinit
 xscreensaver
 xubuntu-desktop
+x11vnc
