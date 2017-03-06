@@ -48,3 +48,22 @@
            state: present
        with_lines:
            - cat ../config/package-lists/recoup1.list.binary
+    -  name: Add ROS kinetic enviroment to global profile
+       file:
+           src: /opt/ros/kinetic/setup.sh
+           dest: /etc/profile.d/ros_kinetic.sh
+           owner: root
+           group: root
+           state: link
+    -  name: Install x11vnc service
+       copy:
+           src: ../config/includes.chroot/etc/systemd/system/x11vnc.service
+           dest: /etc/systemd/system/
+           owner: root
+           group: root
+           mode: 0755
+    -  name: Start and Enable x11vnc service
+       service: 
+           name: x11vnc
+           state: started
+           enabled: yes
