@@ -22,7 +22,7 @@ Set the username of the user you are trying to connect as and then hit the
 
 ![logo](svnc/3.png)
 
-Hit the *Connecct* button and Remmina will attempt to login to the server
+Hit the *Connect* button and Remmina will attempt to login to the server
 via a ssh tunnel. SSH will make VNC secure.
 
 ![logo](svnc/4.png)
