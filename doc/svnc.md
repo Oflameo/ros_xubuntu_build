@@ -17,8 +17,7 @@ Click on the *SSH* tab. *Enable SSH Tunnel* and *Tunnel via loopback*
 address via the checkboxes and hit the *Same server at port 22* 
 radio button.
 
-Set the username of the user you are trying to connect as and then hit the
-*Save* button.
+Set the username of the user you are trying to connect as.
 
 ![logo](svnc/3.png)
 
@@ -37,6 +36,5 @@ desktop via SVNC.
 ![logo](svnc/1.png)
 
 When you try to connect to the server again, you will see the server in your
-list of resources to connect to because you hit the save button. 
-If you hit the *Connect* button again, you will be prompted the same way
-as last time.
+list of resources to connect to. If you hit the *Connect* button again, you will be 
+prompted the same way as last time.
