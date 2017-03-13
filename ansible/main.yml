@@ -15,9 +15,10 @@
           keyserver: hkp://ha.pool.sks-keyservers.net:80
           id: 421C365BD9FF1F717815A3895523BAEEB01FA116
           state: present
-    -  name: Update cache
+    -  name: Update cache and packages
        apt: 
           update_cache: yes
+          upgrade: yes
     -  name: Install admin packages
        apt: 
            name: "{{ item }}"
