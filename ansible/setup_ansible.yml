@@ -1,0 +1,7 @@
+---
+- gather_facts: False
+  hosts: "{{ hosts }}"
+  remote_user:  "{{ user }}"
+  become: True
+  tasks:
+    - raw: apt-get -y install aptitude python-simplejson
