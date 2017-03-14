@@ -4,6 +4,7 @@ build-essential
 gcc
 gnuplot-qt
 gnuplot-doc
+gpsd
 inkscape
 librecad
 libreoffice
