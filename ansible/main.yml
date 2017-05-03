@@ -75,8 +75,3 @@
          owner: root
          group: root
          mode: 0644
-    - name: Stop network from preventing boot
-      service:
-          name: NetworkManager-wait-online
-          state: stopped
-          enabled: no

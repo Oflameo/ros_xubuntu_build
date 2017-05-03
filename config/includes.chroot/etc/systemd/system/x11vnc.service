@@ -6,7 +6,7 @@ After=display-manager.service
 [Service]
 Type=forking
 EnvironmentFile=/etc/environment
-ExecStart=/usr/bin/x11vnc -xkb -auth /var/run/lightdm/root/:0 -noxrecord -noxfixes -noxdamage -forever -bg -rfbport 5900 -oa /var/log/x11vnc.log -localhost
+ExecStart=/usr/bin/x11vnc -xkb -auth /var/run/lightdm/root/:0 -noxrecord -noxfixes -noxdamage -forever -bg -rfbport 5900 -oa /var/log/x11vnc.log -localhost -repeat
 Restart=on-failure
 RestartSec=10
 
